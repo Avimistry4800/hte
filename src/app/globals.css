@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-void: #050505;
+  --color-electric: #3B82F6;
+  --color-titanium: #E5E5E5;
+  
+  /* Fonts */
+  --font-heading: var(--font-space-grotesk);
+  --font-sans: var(--font-geist-sans);
+}
+
+:root {
+  --background: var(--color-void);
+  --foreground: var(--color-titanium);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
