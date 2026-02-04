@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Cpu, Linkedin, Twitter, Github, Mail } from "lucide-react";
+import { Cpu, Linkedin, Github, Mail, Instagram, Facebook } from "lucide-react";
 import { NewsletterForm } from "./newsletter-form";
 import { motion } from "framer-motion";
 
@@ -30,9 +30,10 @@ export function Footer() {
     ];
 
     const socialLinks = [
-        { icon: Linkedin, href: "#", label: "LinkedIn" },
-        { icon: Twitter, href: "#", label: "Twitter" },
-        { icon: Github, href: "#", label: "GitHub" },
+        { icon: Instagram, href: "https://www.instagram.com/hightechenterprisebd", label: "Instagram" },
+        { icon: Facebook, href: "https://www.facebook.com/HighTechEnterprise48", label: "Facebook" },
+        { icon: Linkedin, href: "https://www.linkedin.com/company/high-tech-enterprise-original/", label: "LinkedIn" },
+        { icon: Github, href: "https://github.com/hightechenterprise", label: "GitHub" },
         { icon: Mail, href: "/contact", label: "Email" },
     ];
 
